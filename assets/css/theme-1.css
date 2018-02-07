@@ -3707,7 +3707,6 @@ select[multiple].input-lg,
     display: none;
   }
 }
-
 .navbar-nav {
   margin: 0.5rem -0.9375rem;
 }
@@ -3889,10 +3888,10 @@ select[multiple].input-lg,
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #757575;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #757575;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #212121;
@@ -3900,6 +3899,8 @@ select[multiple].input-lg,
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
   background-color: #2a7af3;
 }
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
