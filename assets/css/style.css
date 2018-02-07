@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 /*Block 1*/
 .uchastniki {
@@ -10,6 +12,7 @@
     background: linear-gradient(to top,#1a213d, #12192c );
     left: 700px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     border-radius: 25px;
     opacity: 0.8;
         
@@ -21,13 +24,14 @@
     margin-bottom: 20px;
     padding-top: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .uchastniki p {
     color: white;
     text-align: center;
     margin-top: 10px;
-    
+    font-family: 'Roboto', sans-serif;
 }
 .uchastniki h3 {
     width: 70px;
@@ -38,6 +42,7 @@
     border-radius: 5px;
     margin: 10px 0 0 165px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #siteNavbar {
@@ -71,6 +76,7 @@
     font-weight: bold;
     margin: 20px 0;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .rl {
@@ -103,6 +109,7 @@
 .feature_1_nav ul li a {
     color: white;
     padding: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .feature_1_nav ul li:first-child {
@@ -129,16 +136,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 #feature1 {
     height: 450px;
     display: -webkit-box;
@@ -160,6 +157,7 @@
 #feature1 h1 {
     font-size: 30px;
     margin: -80px 0 0px 0;
+    font-family: 'Roboto', sans-serif;
     
 }
 .feature1_block_bottom {
@@ -176,7 +174,8 @@
 }
 
 .feature1_block_bottom h2 {
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .feature1_block_1 {
@@ -221,3 +220,4 @@
 .site-footer-bottom-copyright img {
     margin-left: 0px;
 }
+

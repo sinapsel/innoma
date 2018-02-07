@@ -1945,7 +1945,7 @@ h2.section-title {
   right: 0.5625rem;
   content: "\e60a";
   line-height: 1;
-  font-family: 'themify';
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
 .pricing-section .pricing-table-header {
@@ -4246,7 +4246,7 @@ select[multiple].input-lg,
   display: block;
   font-weight: 700;
   letter-spacing: 0;
-  font-family: 'themify';
+  font-family: 'Roboto', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -4279,7 +4279,7 @@ select[multiple].input-lg,
        -o-animation-name: jello;
           animation-name: jello;
   visibility: visible;
-  font-family: 'themify';
+  font-family: 'Roboto', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -4315,7 +4315,7 @@ select[multiple].input-lg,
  * font
  */
 .font-body, body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .font-heading, h1, .text-h1,
@@ -4324,11 +4324,11 @@ h3, .text-h3,
 h4, .text-h4,
 h5, .text-h5,
 h6, .text-h6, .btn {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .font-sub {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .font-mono, code,
