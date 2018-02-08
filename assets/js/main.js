@@ -3,6 +3,8 @@
 // --------------------------------------------------
 //
 
+
+
 var $ = jQuery.noConflict();
 
 (function($) {
@@ -186,9 +188,9 @@ var $ = jQuery.noConflict();
 //
 
     fn_hero: function() {
-      var $hero = $('.js-hero, .home-hero');
+     var $hero = $('.js-hero, .home-hero');
 
-      $hero.css('height', $(window).height() + 'px');
+     $hero.css('height', $(window).height() + 'px');
     },
 
 //
@@ -197,9 +199,12 @@ var $ = jQuery.noConflict();
 //
 
     fn_carousel: function() {
-      $('#screenshotCarousel').imagesLoaded().always(function(instance) {
+      $('#screenshotCarousel,#partnersCarousel').imagesLoaded().always(function(instance) {
         var $carousel = $('#screenshotCarousel');
-
+    var $carousel2 = $('#partnersCarousel');
+    var $carousel3 = $('#featureCarouselProject');
+    var $carousel4 = $('#featureCarouselCorp');
+    
         $carousel.slick({
           centerMode: true,
           centerPadding: 0,
@@ -233,9 +238,109 @@ var $ = jQuery.noConflict();
             }
           ]
         });
+    $carousel2.slick({
+          centerMode: false,
+          centerPadding: 0,
+          slidesToShow: 5,
+          swipeToSlide: true,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+    $carousel3.slick({
+          centerMode: false,
+          centerPadding: 0,
+          slidesToShow: 3,
+          swipeToSlide: true,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+    $carousel4.slick({
+          centerMode: false,
+          centerPadding: 0,
+          slidesToShow: 3,
+          swipeToSlide: true,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
       })
     },
-
+  
+  
 //
 // gallery
 // --------------------------------------------------
@@ -595,8 +700,8 @@ var $ = jQuery.noConflict();
 // init
 // --------------------------------------------------
 
-	$(function() {
-		BONEFISHCODE.ready();
+  $(function() {
+    BONEFISHCODE.ready();
 
     $(window).on('scroll', function() {
       BONEFISHCODE.scroll();
@@ -609,11 +714,23 @@ var $ = jQuery.noConflict();
     $(window).on('load', function() {
       BONEFISHCODE.load();
     });
-	});
+  });
 
 //
 // function end
 // --------------------------------------------------
 //
 
+$(document).ready(function() {
+  $("#popup-btn").click(function(){
+    $(".popup-form").addClass("popup-form-show");
+    $(".popup-all").addClass("popup-all-show");
+   })
+  $(".popup-all, .popup-close").click(function(){
+    $(".popup-all").removeClass("popup-all-show");
+    $(".popup-form").removeClass("popup-form-show");
+     })
+  });
+
+  
 })(jQuery);

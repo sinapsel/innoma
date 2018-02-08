@@ -63,39 +63,26 @@
     /* position: relative; */
     /* top: 115px; */
     /* left: 150px; */
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     padding-left: 150px;
 }
 
 
 
 .innoma h3 {
-    line-height: 1.333333333333333;
-    font-size: 2.25rem;
-    font-weight: 300;
-    font-weight: bold;
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #1B2340;
-}
-.innoma .rl {
     font-weight: bold;
     margin: 20px 0;
-    font-size: 15px;
-    color: initial;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 700;
+    font-size: 16px;
 }
 .innoma .innoma_title {
     margin-bottom: 10px;
 }
 .innoma p {
-    line-height: 1.625;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.23;
+    font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 50px;
-    font-family: 'Roboto',Arial, sans-serif;
-    font-weight: 100;
 }
 
 .rl {
@@ -168,7 +155,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #1B2340;
+    background-color: #fbf6fa;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -179,6 +166,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    
 }
 
 .feature1_title h1 {
@@ -187,12 +175,6 @@
     font-size: 60px;
     margin: -50px 0 50px 0;
     font-weight: bold;
-    line-height: 1.333333333333333;
-    font-size: 2.25rem;
-    font-weight: 400;
-    font-weight: bold;
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #fff;
 }
 
 .feature1_block_bottom {
@@ -252,12 +234,12 @@
 
 .bfc-carousel-item-media h2 {
   text-align: center;
-  color: #fff;
+  color: initial;
 }
 
 .bfc-carousel-item-media p {
   text-align: center;
-  color: #fff;
+  color: initial;
 }
 
 .site-footer-bottom-copyright img {
@@ -275,7 +257,6 @@
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 40px;
-    border-radius: 0.125rem;
 }
 
 
@@ -285,7 +266,7 @@
     padding: 0px;
     margin: 0 auto;
 }
-/* Ð¡Ñ‚Ð¸Ð»Ð¸ ÑÐµÐºÑ†Ð¸Ð¹ Ñ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸ÐµÐ¼ */
+/* Стили секций с содержанием */
 .tabs>section {
     display: none;
     padding: 15px;
@@ -296,7 +277,7 @@
     margin: 0 0 5px;
     line-height: 1.5;
     color: #383838;
-    /* Ð¿Ñ€Ð¸ÐºÑ€ÑƒÑ‚Ð¸Ð¼ Ð°Ð½Ð¸Ð¼Ð°Ñ†Ð¸ÑŽ */
+    /* прикрутим анимацию */
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -304,7 +285,7 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
-/* ÐžÐ¿Ð¸ÑÑ‹Ð²Ð°ÐµÐ¼ Ð°Ð½Ð¸Ð¼Ð°Ñ†Ð¸ÑŽ ÑÐ²Ð¾Ð¹ÑÑ‚Ð²Ð° opacity */
+/* Описываем анимацию свойства opacity */
  
 @-webkit-keyframes fadeIn {
     from {
@@ -358,25 +339,4 @@
 
 .site-footer-bottom-left-col {
     padding-top: 8px;
-}
-#partnersCarousel {
-    padding-right: 84px;
-    padding-left: 84px;
-}
-
-#partnersCarousel .slick-arrow {
-    display: block;
-    background: #FFA975;
-    color: #fff;
-    border-radius: 50%;
-}
-
-#partnersCarousel .slick-prev:before,
-#partnersCarousel .slick-next:before {
-    font-size: 1.25rem;
-    opacity: .75;
-    color: #fff;
-    font-family: "themify";
-        background: #FFA975;
-
 }
