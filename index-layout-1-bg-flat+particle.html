@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
 <!--[if gt IE 9 | !IE]><!-->
@@ -14,8 +15,6 @@
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="icon" href="assets/img/favicon.ico">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto-Thin:400,300,300italic,400italic,500,500italic,700,700italic'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
   <link rel='stylesheet' href='assets/css/vendor.css'>
   <link rel="stylesheet" href="assets/css/style.css">
@@ -67,7 +66,7 @@
             <li><a data-smooth-scroll="true" href="#pricing">Эксперты</a></li>
             <li><a data-smooth-scroll="true" href="#partners">Партнеры</a></li>
             <li><a data-smooth-scroll="true" href="#contact">Личный кабинет</a></li>
-            <li style="height: 40px;"><a href="#"><img src="assets/img/1.png" width="35" height="35" alt="" style="margin-top: -10px; "></a></li>
+            <li style="height: 40px;"><a href="#"><img src="assets/img/1.png" width="30" height="30" alt="" style="margin-top: -10px; "></a></li>
           </ul>
         </div> <!-- .navbar-collapse -->
       </div>
@@ -87,8 +86,8 @@
 
               <p class="text-lead wow fadeInUp">Помогаем иновационным компаниям масштабировать свой продукт</p>
 
-              <div class="btn-wrap">
-                <a class="btn btn-lg btn-theme-2 wow bounceIn popup-inline" data-mfp-src="#popupForm" data-wow-delay=".2s" data-smooth-scroll="true" href="#download">Вступить в реестр <span class="icon ti-arrow-circle-down"></span></a>
+              <div  class="btn-wrap">
+                <a id="popup-btn" class="btn btn-lg btn-theme-2 wow bounceIn" data-wow-delay=".2s" data-smooth-scroll="true" href="#">Вступить в реестр <span class="icon ti-arrow-circle-down"></span></a>
                 <a class="btn btn-lg btn-default wow bounceIn" data-wow-delay=".2s" data-smooth-scroll="true" href="#service">Подробнее <span class="icon ti-arrow-circle-down"></span></a>
               </div>
             </div> <!-- .home-left-col -->
@@ -100,7 +99,7 @@
                                  <h3>44</h3>
                                  <p>Компаний</p>
                                  <h2>Компании партнеры:</h2>
-                                 <h3>16</h3>
+                                 <h3>44</h3>
                                  <p>Компаний</p>
                            </div>
                            
@@ -113,12 +112,12 @@
 
     <div id="service" class="service-section">
          <div class="innoma">
-             <h2><b>ИННОМА</b></h2>
-             <p style="font-family: 'Roboto'; font-size: 14pt; letter-spacing: -.02em; line-height: 1">Мастерская инноваций создана для <br>выстраивания взаимовыгодного сотрудничества инновационных компаний и корпораций.</p>
-             <h3 style="font-family: 'Roboto'; line-height: 1" class="rl">Мы регулярно рассылаем информацию <br>о проектах заинтересоанным организациям</h3>
+             <h3 class="innoma_title">Иннома</h3>
+             <p>Мастерская инноваций создана для <br>выстраивания взаимовыгодного сотрудничества инновационных компаний и корпораций.</p>
+             <h3 class="rl">Мы регулярно рассылаем информацию <br>о проектах заинтересоанным организациям</h3>
          </div>
          <div class="projects">
-            <img src="assets/img/feature-phone-1.png" alt="">
+            <img src="assets/img/feature-phone-1.jpg" alt="" width="300" height="400">
          </div>
          
      </div>
@@ -131,20 +130,154 @@
     </div> <!-- #service-->
 
     <div id="feature1" class="feature1-section">
-     <div class="">
+     <div class="feature1_title">
          <h1>Ценность нашего решения</h1>
-     </div>
-     <div class="feature_1_nav">
-         <ul>
-             <li><a href="#feature1">Проектам</a></li>
-             <li><a href="#feature1">Корпорациям/инвесторам</a></li>
-         </ul>
-         <div style="clear: both;"></div>
-     </div>
+    </div>
+
+     <div class="tabbable ">
+      <div class="feature_1_nav">
+    <ul class=" ">
+    <li class="active"><a href="#1" data-toggle="tab">Проектам</a></li>
+    <li><a href="#2" data-toggle="tab">Корпорациям/инвесторам</a></li>
+    </ul>
+    </div>
+    <div class="tab-content ">
+    <div class="tab-pane active posa tab1" id="1">
+    <div class="container">
+     <div id="featureCarouselProject" class="popup-gallery bfc-carousel wow fadeIn">
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/prj-1.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/prj-1.png" alt=""> <!-- preview media -->
+                 <h2>ВЫХОД НА КОРПОРАЦИИ</h2>
+             <p>Построение эффективного 
+взаимодействия с корпорациями  
+(рассылка и презентация проекта  
+заинтересованным организациям)</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/prj-2.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/prj-2.png" alt=""> <!-- preview media -->
+                <h2>ЭКСПЕРТНАЯ ОЦЕНКА</h2>
+             <p>
+Многоэтапная экспертная 
+оценка вашего проекта 
+и формирование необходимо 
+пакета документов для корпораций
+</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/prj-3.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/prj-3.png" alt=""> <!-- preview media -->
+                <h2>ГАРАНТ КАЧЕСТВА</h2>
+             <p>
+После успешной экспертной оценки проекта, 
+ваша компания получает статус участника 
+реестра инноваций
+</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/prj-2.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/prj-2.png" alt=""> <!-- preview media -->
+                <h2>ЭКСПЕРТНАЯ ОЦЕНКА</h2>
+             <p>
+Многоэтапная экспертная 
+оценка вашего проекта 
+и формирование необходимо 
+пакета документов для корпораций
+</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+        </div>
+    </div>
+    </div>
+    <div class="tab-pane tab2" id="2">
+    <div class="container">
+     <div id="featureCarouselCorp" class="popup-gallery bfc-carousel wow fadeIn">
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/corp-1.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/corp-1.png" alt=""> <!-- preview media -->
+                 <h2>ПОИСК ИННОВАЦИОННЫХ РЕШЕНИЙ</h2>
+             <p>Построение эффективного 
+взаимодействия со стартапами  
+(поиск поставщика решений, 
+запуск пилотных продуктов)</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/corp-2.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/corp-2.png" alt=""> <!-- preview media -->
+                <h2>УПАКОВКА ПРОЕКТОВ</h2>
+             <p>
+Проектная документация  инновационных решений
+формируется  согласно вашим требованиям
+</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/corp-3.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/corp-3.png" alt=""> <!-- preview media -->
+                <h2>ГАРАНТ КАЧЕСТВА</h2>
+             <p>Многоэтапная экспертная оценка проектов
+позволяет сформировать пул проверенных 
+поставшиков инновационных решений
+ </p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/cennosti/corp-2.png" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media" style="color: #fff;">
+                <img class="bfc-carousel-item-media-img" src="assets/img/cennosti/corp-2.png" alt=""> <!-- preview media -->
+                <h2>УПАКОВКА ПРОЕКТОВ</h2>
+             <p>
+Проектная документация  инновационных решений
+формируется  согласно вашим требованиям
+</p>
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+
+        
+    </div>
+    </div>
+    </div>
+</div>
      
-     
+
+        </div>
+             <div  class="btn-wrap">
+                <a id="popup-btn2" class="btn btn-lg btn-theme-2 wow bounceIn" data-wow-delay=".2s" data-smooth-scroll="true" href="#">Связаться с нами <span class="icon ti-arrow-circle-down"></span></a></div>
+
+    </div>
+
     
-        <div class="feature1_block_bottom">
+        <!--<div class="feature1_block_bottom">
          <div class="feature1_block_1">
              <img src="assets/img/glabal.jpg" alt="">
              <h2>Global</h2>
@@ -156,19 +289,14 @@
          <p>Gelios</p>
          
          </div>
-     </div>
+     </div>-->
+      
+      </div>
+
+    </div> <!-- #screenshot-->
      
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+   
     </div> <!-- #feature1 -->
 
   <!-- #feature2 -->
@@ -181,18 +309,19 @@
       <div class="container">
         <div class="screenshot-title-row row">
           <div class="screenshot-title-col col-sm-8 col-sm-offset-2">
-            <h2 class="section-title">Наши эксперты</h2>
+            <h2 style="line-height: 1.333333333333333;font-size: 2.25rem;font-weight: 300;font-weight: bold;font-family: 'Roboto', Arial, sans-serif;color: #1B2340;">Наши эксперты</h3>
 
-            <p class="text-lead">Иннома - это экспертное общество отраслевых профессионалов</p>
+            <h2 style="font-family: 'Roboto';font-size: 20px;margin-bottom: 20px; padding-top: 20px;">Иннома - это экспертное общество отраслевых профессионалов</h2>
           </div> <!-- .screenshot-title-col -->
         </div> <!-- .screenshot-title-row -->
 
-
-        <div id="screenshotCarousel" class="popup-gallery bfc-carousel wow fadeIn">
+        <div id="screenshotCarousel" class="popup-gallery bfc-carousel wow fadeIn bluesings">
           <div class="bfc-carousel-item popup-gallery-item">
             <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/screenshot/screenshot-1-popup.png" title="Media title"> <!-- popup media -->
               <div class="bfc-carousel-item-media">
                 <img class="bfc-carousel-item-media-img" src="assets/img/screenshot/screenshot-1.png" alt=""> <!-- preview media -->
+                <h2>Роман Гайтдинов</h2>
+                <p>Руководитель отдела инноваций</p>
               </div>
             </a>
           </div> <!-- .bfc-carousel-item -->
@@ -201,6 +330,8 @@
             <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/screenshot/screenshot-2-popup.png" title="Media title"> <!-- popup media -->
               <div class="bfc-carousel-item-media">
                 <img class="bfc-carousel-item-media-img" src="assets/img/screenshot/screenshot-2.png" alt=""> <!-- preview media -->
+                <h2>Роман Гайтдинов</h2>
+                <p>Руководитель отдела инноваций</p>
               </div>
             </a>
           </div> <!-- .bfc-carousel-item -->
@@ -209,6 +340,8 @@
             <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/screenshot/screenshot-3-popup.png" title="Media title"> <!-- popup media -->
               <div class="bfc-carousel-item-media">
                 <img class="bfc-carousel-item-media-img" src="assets/img/screenshot/screenshot-3.png" alt=""> <!-- preview media -->
+                <h2>Роман Гайтдинов</h2>
+                <p>Руководитель отдела инноваций</p>
               </div>
             </a>
           </div> <!-- .bfc-carousel-item -->
@@ -217,6 +350,8 @@
             <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/screenshot/screenshot-4-popup.png" title="Media title"> <!-- popup media -->
               <div class="bfc-carousel-item-media">
                 <img class="bfc-carousel-item-media-img" src="assets/img/screenshot/screenshot-4.png" alt=""> <!-- preview media -->
+                <h2>Роман Гайтдинов</h2>
+                <p>Руководитель отдела инноваций</p>
               </div>
             </a>
           </div> <!-- .bfc-carousel-item -->
@@ -233,54 +368,119 @@
 
 
     <div id="partners" class="">
-      <h1>Партнеры</h1>
-          <div class="partners_logo">
-            <div class = "row">
-              <img src="assets/img/Partners/1.jpg" alt="" width="100" height="50">
-              <img src="assets/img/Partners/2.jpg" alt="" width="100" height="50">
-              <img src="assets/img/Partners/3.jpg" alt="" width="100" height="50">
-              <img src="assets/img/Partners/4.jpg" alt="" width="100" height="50">
-              <img src="assets/img/Partners/5.jpg" alt="" width="100" height="50">
-              <img src="assets/img/Partners/6.jpg" alt="" width="100" height="50">
-            </div>
+      <h3 class="innoma_title hehead" style="line-height: 1.333333333333333;font-size: 2.25rem;font-weight: 300;font-weight: bold;font-family: 'Roboto', Arial, sans-serif;color: #1B2340;">Партнеры</h3>
+          <div class="partners_logo screenshot-section">
+              <!--<img src="assets/img/Partners/1.jpg" alt="">
+              <img src="assets/img/Partners/2.jpg" alt="">
+              <img src="assets/img/Partners/3.jpg" alt="">
+              <img src="assets/img/Partners/4.jpg" alt="">
+              <img src="assets/img/Partners/5.jpg" alt="">
+              <img src="assets/img/Partners/6.jpg" alt="">-->
+              <div class="container">
+         <div id="partnersCarousel" class="popup-gallery bfc-carousel wow fadeIn">
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/1.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/1.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/2.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/2.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+
+          <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/3.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/3.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+       <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/4.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/4.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+           <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/5.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/5.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+           <div class="bfc-carousel-item popup-gallery-item">
+            <a class="bfc-carousel-item-link popup-gallery-link" href="assets/img/Partners/6.jpg" title="Media title"> <!-- popup media -->
+              <div class="bfc-carousel-item-media">
+                <img class="bfc-carousel-item-media-img" src="assets/img/Partners/6.jpg" alt=""> <!-- preview media -->
+              </div>
+            </a>
+          </div> <!-- .bfc-carousel-item -->
+        </div>
+    </div></div>
+
           </div>
     </div> <!-- #download -->
 
    
-  <footer>
-<div id="siteFooterBottom" class="site-footer-bottom-section">
-    <nav id="siteNavbar" class="navbar-default">
-    
+  
+
+<!--
+  <footer class="site-footer">
+    <div id="siteFooterTop" class="site-footer-top-section">
       <div class="container">
+        <div class="site-footer-top-row row">
+          <div class="site-footer-top-col col-sm-8 col-sm-offset-2">
+            <h2 class="section-title">Hello! We're making attractive websites which <b>WIN</b> your customers.</h2>
+          </div>
+        </div>
+      </div>
+    </div>  #siteFooterTop 
+-->
+
+    <div id="siteFooterBottom" class="site-footer-bottom-section">
+      <div class="container">
+        <div class="site-footer-bottom-border"></div>
         <div class="row">
-          <div class="site-footer-bottom-left-col col-md-2">
+          <div class="site-footer-bottom-left-col col-md-3">
             <div class="site-footer-brand">
               Иннома <span>мастерская инноваций</span>
             </div>
+
           
           </div>
-
-            <div class="collapse navbar-collapse" id="navbar-collapse" >
-            <ul class="nav navbar-nav navbar-right" >
-            <li><a data-smooth-scroll="true" href="#home">Наши услуги</a></li>
+          <div class="col-md-7">
+      <ul class="footer_nav" >
+            <li ><a data-smooth-scroll="true" href="#home">Наши услуги</a></li>
             <li><a data-smooth-scroll="true" href="#feature1">Консалтинг</a></li>
             <li><a data-smooth-scroll="true" href="#screenshot">Проектам/корпорациям</a></li>
             <li><a data-smooth-scroll="true" href="#pricing">Эксперты</a></li>
-            <li class="active"><a data-smooth-scroll="true" href="#partners">Партнеры</a></li>
+            <li><a data-smooth-scroll="true" href="#partners">Партнеры</a></li>
             <li><a data-smooth-scroll="true" href="#contact">Личный кабинет</a></li>
-            <li style="height: 40px;"><div class="site-footer-bottom-copyright"><a data-smooth-scroll="true" href="#"><img src="assets/img/telegram-logo_1.png" alt="" width="50" height="50" style="margin-top: 20px"><span class = "telegram_logonum_margin">8-888-88-8888</span></a></div></li>
-            </ul>
-            </div> <!-- .navbar-collapse -->
+          </ul>
+          </div>
+          <div class="site-footer-bottom-right-col col-md-2">
+           
+            <div class="site-footer-bottom-copyright"><a href=""><img src="assets/img/telegram-logo_1.png" alt="" width="50" height="50" ></a>&nbsp&nbsp&nbsp 8-888-88-8888 </div>
           </div>
         </div>
       </div>
     </div> <!-- #siteFooterBottom -->
-  </nav>
   </footer>
 
   <!-- popup -->
-  <div id="popupForm" class="popup-form mfp-hide">
+  <div class="popup-all"></div>
+  <div class="popup-form ">
+              <div class="popup-close"></div>
+
     <form id="popupSubscribeForm" class="form popup-subscribe-form" data-action="assets/php/subscribe.php" novalidate="novalidate">
+
       <img class="popup-subscribe-form-media" src="assets/img/subscribe/subscribe-icon-1.png" alt="">
       <div class="popup-subscribe-form-title">Hi There!</div>
       <div class="popup-subscribe-form-text-lead">Subscribe and get Exclusive goodies.</div>
@@ -329,7 +529,6 @@
     <p>Male lesser moved shall man lesser fourth subdue multiply cattle. Creepeth dry seed they're cattle hath made.</p>
   </div> <!-- #acceptableUsePolicy -->
   <!-- /popup -->
-
   <script src='assets/js/jquery-1.11.3.min.js'></script>
   <script src='assets/js/bootstrap.min.js'></script>
   <script src='assets/js/vendor.js'></script>
