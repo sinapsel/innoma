@@ -3153,7 +3153,8 @@ myCanvas.render();
 
 }));
 
- 
+
+
 /*!-----------------------------------------------------------------------------
  * Vegas - Fullscreen Backgrounds and Slideshows.
  * v2.2.1 - built 2016-05-04

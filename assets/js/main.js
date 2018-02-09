@@ -732,5 +732,16 @@ $(document).ready(function() {
      })
   });
 
+$(document).ready(function() {
+  $("#popup-btn2").click(function(){
+    $(".popup-form").addClass("popup-form-show");
+    $(".popup-all").addClass("popup-all-show");
+   })
+  $(".popup-all, .popup-close").click(function(){
+    $(".popup-all").removeClass("popup-all-show");
+    $(".popup-form").removeClass("popup-form-show");
+     })
+  });
+
   
 })(jQuery);

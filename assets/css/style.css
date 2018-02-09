@@ -69,7 +69,6 @@
 }
 
 
-
 .innoma h3 {
     line-height: 1.333333333333333;
     font-size: 2.25rem;
@@ -96,6 +95,15 @@
     margin-bottom: 50px;
     font-family: 'Roboto',Arial, sans-serif;
     font-weight: 100;
+}
+
+.hehead h3 {
+    line-height: 1.333333333333333;
+    font-size: 16pt;
+    font-weight: 300;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #1B2340;
 }
 
 .rl {
@@ -250,14 +258,19 @@
     background-color: #1c2340;
 }
 
+
 .bfc-carousel-item-media h2 {
   text-align: center;
-  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
 .bfc-carousel-item-media p {
   text-align: center;
-  color: #fff;
+  font-family: 'Roboto Thin', Arial, sans-serif;
+
 }
 
 .site-footer-bottom-copyright img {
@@ -265,7 +278,7 @@
 }
 
 .feature1_btn {
-    background: #1B1188;
+    background: #2a7af3;
     width: 250px;
     height: 50px;
     color: #fff;
@@ -277,7 +290,15 @@
     margin-top: 40px;
     border-radius: 0.125rem;
 }
-
+.subst h2{
+  text-transform: inherit;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+}
 
 .tabs {
     min-width: 320px;
@@ -366,17 +387,16 @@
 
 #partnersCarousel .slick-arrow {
     display: block;
-    background: #FFA975;
-    color: #fff;
-    border-radius: 50%;
 }
 
 #partnersCarousel .slick-prev:before,
 #partnersCarousel .slick-next:before {
     font-size: 1.25rem;
-    opacity: .75;
-    color: #fff;
+    color: #1b2340;
     font-family: "themify";
-        background: #FFA975;
 
+}
+
+.bluesings{
+  color: #2a7af3 !important;
 }
