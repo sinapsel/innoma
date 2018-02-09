@@ -688,8 +688,6 @@ html:not(.ie9):not(.is-mobile) .text-animate {
   text-align: center;
 }
 
-
-
 .section-title {
   line-height: 1.333333333333333;
   margin-bottom: 3rem;
@@ -700,7 +698,7 @@ html:not(.ie9):not(.is-mobile) .text-animate {
 }
 .section-title + .text-lead {
   line-height: 1.625;
-  margin-top: -1.5rem;
+  margin-top: -2.4rem;
   margin-bottom: 3rem;
   font-size: 1rem;
   font-weight: 300;
@@ -855,14 +853,6 @@ h2.section-title {
    background-color: transparent;
   border: 1px solid #CBD0D5;
   border: none;
-}
-.hehead h3 {
-    line-height: 1.333333333333333;
-    font-size: 2.25rem;
-    font-weight: 300;
-    font-weight: bold;
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #1B2340;
 }
 .clients-counter .counter-bottom {
   flex: 1;
@@ -1407,7 +1397,7 @@ h2.section-title {
 @media (min-width: 992px) {
   .feature1-section {
     padding-top: 6.25rem;
-    padding-bottom: 40px;
+    padding-bottom: 67px;
   }
 }
 
@@ -1579,8 +1569,9 @@ h2.section-title {
 }
 @media (min-width: 992px) {
   .screenshot-section {
-    padding-top: 6.25rem;
+    padding-top: 5.25rem;
     padding-bottom: 6.25rem;
+    border-bottom: 1px solid #f2f2f2;
   }
 }
 
@@ -1681,7 +1672,6 @@ h2.section-title {
 #screenshotCarousel .slick-prev,
 #screenshotCarousel .slick-next {
   display: block;
-  color: #1b2340;
   width: 2.25rem;
   height: 2.25rem;
   z-index: 10;
@@ -1691,7 +1681,7 @@ h2.section-title {
 #screenshotCarousel .slick-next:before {
   font-size: 2.25rem;
   opacity: .75;
-  color: #1b2340;
+  color: #212121;
   font-family: "themify";
 }
 #featureCarouselProject .slick-prev:before,
@@ -1715,7 +1705,7 @@ h2.section-title {
 #partnersCarousel .slick-next:before,
 #screenshotCarousel .slick-next:before {
   content: "\e649";
-  text-shadow: -1px 1px 2px rgba(27, 35, 64, 0.12);
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 /**
@@ -2300,7 +2290,6 @@ h2.section-title {
 
 .site-footer-bottom-border {
   padding-top: 2rem;
-  border-top: 0.0625rem solid rgba(255, 255, 255, 0.12);
 }
 
 @media (max-width: 991px) {
@@ -2374,6 +2363,8 @@ h2.section-title {
 
 .site-footer-bottom-copyright {
   line-height: 1.846153846153846;
+  padding-top: 9px;
+  color: #fff;
 }
 
 #footerSubscribeForm {
@@ -2812,10 +2803,16 @@ h2.section-title {
   padding-left: 2.5em;
 }
 
+.feature1_btn > .icon,
 .btn > .icon {
   margin-left: 0.5rem;
 }
 
+.feature1_btn > .icon {
+  margin-left: 0.5rem;
+}
+}
+}
 /**
  * form
  * ---------------------------------------------------------
@@ -4425,6 +4422,7 @@ select[multiple].input-lg,
  */
 .font-body, body {
   font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 .font-heading, h1, .text-h1,
@@ -4487,6 +4485,16 @@ samp {
 h1, .text-h1 {
   font-size: 1.75rem;
   line-height: 1.428571428571429;
+}
+
+h2, .text-h2 {
+  font-size: 1.5rem;
+  line-height: 1.416666666666667;
+}
+
+h3, .text-h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 h4, .text-h4 {
@@ -4752,4 +4760,40 @@ h6, .text-h6 {
 .uchastniki p {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 100;
+}
+
+#partners h1 {
+  line-height: 1.333333333333333;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #1B2340;
+}
+
+.screenshot-title-col .section-title {
+  line-height: 1.333333333333333;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #1B2340;
+}
+
+.screenshot-title-col .text-lead {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+#featureCarouselCorp .bfc-carousel-item-media h2,
+#featureCarouselProject .bfc-carousel-item-media h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#featureCarouselCorp .bfc-carousel-item-media p,
+#featureCarouselProject .bfc-carousel-item-media p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
 }

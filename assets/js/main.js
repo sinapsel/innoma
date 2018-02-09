@@ -201,10 +201,10 @@ var $ = jQuery.noConflict();
     fn_carousel: function() {
       $('#screenshotCarousel,#partnersCarousel').imagesLoaded().always(function(instance) {
         var $carousel = $('#screenshotCarousel');
-    var $carousel2 = $('#partnersCarousel');
-    var $carousel3 = $('#featureCarouselProject');
-    var $carousel4 = $('#featureCarouselCorp');
-    
+		var $carousel2 = $('#partnersCarousel');
+		var $carousel3 = $('#featureCarouselProject');
+		var $carousel4 = $('#featureCarouselCorp');
+		
         $carousel.slick({
           centerMode: true,
           centerPadding: 0,
@@ -238,7 +238,7 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-    $carousel2.slick({
+		$carousel2.slick({
           centerMode: false,
           centerPadding: 0,
           slidesToShow: 5,
@@ -271,7 +271,7 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-    $carousel3.slick({
+		$carousel3.slick({
           centerMode: false,
           centerPadding: 0,
           slidesToShow: 3,
@@ -304,7 +304,7 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-    $carousel4.slick({
+		$carousel4.slick({
           centerMode: false,
           centerPadding: 0,
           slidesToShow: 3,
@@ -339,8 +339,8 @@ var $ = jQuery.noConflict();
         });
       })
     },
-  
-  
+	
+	
 //
 // gallery
 // --------------------------------------------------
@@ -700,8 +700,8 @@ var $ = jQuery.noConflict();
 // init
 // --------------------------------------------------
 
-  $(function() {
-    BONEFISHCODE.ready();
+	$(function() {
+		BONEFISHCODE.ready();
 
     $(window).on('scroll', function() {
       BONEFISHCODE.scroll();
@@ -714,7 +714,7 @@ var $ = jQuery.noConflict();
     $(window).on('load', function() {
       BONEFISHCODE.load();
     });
-  });
+	});
 
 //
 // function end
@@ -723,24 +723,13 @@ var $ = jQuery.noConflict();
 
 $(document).ready(function() {
   $("#popup-btn").click(function(){
-    $(".popup-form").addClass("popup-form-show");
-    $(".popup-all").addClass("popup-all-show");
+	  $(".popup-form").addClass("popup-form-show");
+	  $(".popup-all").addClass("popup-all-show");
    })
   $(".popup-all, .popup-close").click(function(){
-    $(".popup-all").removeClass("popup-all-show");
-    $(".popup-form").removeClass("popup-form-show");
-     })
-  });
-
-$(document).ready(function() {
-  $("#popup-btn2").click(function(){
-    $(".popup-form").addClass("popup-form-show");
-    $(".popup-all").addClass("popup-all-show");
-   })
-  $(".popup-all, .popup-close").click(function(){
-    $(".popup-all").removeClass("popup-all-show");
-    $(".popup-form").removeClass("popup-form-show");
-     })
+	  $(".popup-all").removeClass("popup-all-show");
+	  $(".popup-form").removeClass("popup-form-show");
+	   })
   });
 
   
