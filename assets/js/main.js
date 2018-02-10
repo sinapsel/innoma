@@ -723,13 +723,34 @@ var $ = jQuery.noConflict();
 
 $(document).ready(function() {
   $("#popup-btn").click(function(){
-	  $(".popup-form").addClass("popup-form-show");
-	  $(".popup-all").addClass("popup-all-show");
+    $(".popup-form").addClass("popup-form-show");
+    $(".popup-all").addClass("popup-all-show");
    })
   $(".popup-all, .popup-close").click(function(){
-	  $(".popup-all").removeClass("popup-all-show");
-	  $(".popup-form").removeClass("popup-form-show");
-	   })
+    $(".popup-all").removeClass("popup-all-show");
+    $(".popup-form").removeClass("popup-form-show");
+     })
+  });
+
+$(document).ready(function() {
+  $(".feature1_btn").click(function(){
+    $(".popup-form").addClass("popup-form-show");
+    $(".popup-all").addClass("popup-all-show");
+   })
+  $(".popup-all, .popup-close").click(function(){
+    $(".popup-all").removeClass("popup-all-show");
+    $(".popup-form").removeClass("popup-form-show");
+     })
+  });
+$(document).ready(function() {
+  $(".popup_link").click(function(){
+    $(".popup-form").addClass("popup-form-show");
+    $(".popup-all").addClass("popup-all-show");
+   })
+  $(".popup-all, .popup-close").click(function(){
+    $(".popup-all").removeClass("popup-all-show");
+    $(".popup-form").removeClass("popup-form-show");
+     })
   });
 
   

@@ -1638,8 +1638,7 @@ h2.section-title {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
        -o-transform: scale(0.9);
-          transform: scale(0.9);
-  opacity: .85;
+          transform: scale(0.9);  
 }
 #featureCarouselProject .bfc-carousel-item-media-img,
 #featureCarouselCorp .bfc-carousel-item-media-img,
@@ -1689,9 +1688,18 @@ h2.section-title {
 #featureCarouselCorp .slick-prev:before,
 #featureCarouselCorp .slick-next:before {
   font-size: 2.25rem;
-  opacity: .75;
-  color: #fff;
   font-family: "themify";
+}
+
+#featureCarouselProject .slick-prev:hover:before,
+#featureCarouselProject .slick-next:hover:before,
+#featureCarouselCorp .slick-prev:hover:before,
+#featureCarouselCorp .slick-next:hover:before {
+  border: 1px solid white;
+  border-radius: 50%;
+  outline-offset: -10em;
+  background: white;
+  color: #2a7af3;
 }
 #featureCarouselProject .slick-prev:before,
 #featureCarouselCorp .slick-prev:before,
