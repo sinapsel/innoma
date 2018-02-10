@@ -107,7 +107,7 @@ fieldset {
  * ---------------------------------------------------------
  */
 body {
-  line-height: 1.714285714285714;
+  line-height: 2;
   background-color: #fff;
   color: #212121;
   font-size: 0.875rem;
@@ -1697,7 +1697,7 @@ h2.section-title {
 #featureCarouselCorp .slick-next:hover:before {
   border: 1px solid white;
   border-radius: 50% 50% 50% 50%; 
-  outline-offset: -10em;
+  outline-offset: 0px 15px 0px 15px;
   background: white;
   color: #2a7af3;
 }
