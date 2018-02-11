@@ -1691,7 +1691,7 @@ h2.section-title {
   font-family: "themify";
 }
 
-#featureCarouselProject .slick-prev:hover:before,
+/*#featureCarouselProject .slick-prev:hover:before,
 #featureCarouselProject .slick-next:hover:before,
 #featureCarouselCorp .slick-prev:hover:before,
 #featureCarouselCorp .slick-next:hover:before {
@@ -1700,12 +1700,12 @@ h2.section-title {
   outline-offset: 0px 15px 0px 15px;
   background: white;
   color: #2a7af3;
-}
+}*/
 #featureCarouselProject .slick-prev:before,
 #featureCarouselCorp .slick-prev:before,
 #partnersCarousel .slick-prev:before,
 #screenshotCarousel .slick-prev:before {
-  content: "\e64a";
+  /*content: "\e64a";*/
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
 }
 #featureCarouselProject .slick-next:before,
@@ -1714,6 +1714,24 @@ h2.section-title {
 #screenshotCarousel .slick-next:before {
   content: "\e649";
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+#featureCarouselProject .slick-prev:before,
+#featureCarouselCorp .slick-prev:before{
+  content: url(../img/right-arrow.png);
+}
+#featureCarouselProject .slick-next:before,
+#featureCarouselCorp .slick-next:before{
+  content: url(../img/left-arrow.png);
+}
+
+#featureCarouselProject .slick-prev:hover:before,
+#featureCarouselCorp .slick-prev:hover:before{
+  content: url(../img/right-arrow-hover.png);
+}
+#featureCarouselProject .slick-next:hover:before,
+#featureCarouselCorp .slick-next:hover:before{
+  content: url(../img/left-arrow-hover.png);
 }
 
 /**
