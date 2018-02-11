@@ -271,7 +271,7 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-		$carousel3.slick({
+    		$carousel3.slick({
           centerMode: false,
           centerPadding: 0,
           slidesToShow: 3,
@@ -752,6 +752,22 @@ $(document).ready(function() {
     $(".popup-form").removeClass("popup-form-show");
      })
   });
+
+$(document).ready(function () {
+  $("#li-part").click(function(){
+    document.getElementById('sliderrr').src = 'assets/img/slider-left-a.png';
+     document.getElementById('li-part').style.color = '#417aeb'; 
+     document.getElementById('li-corp').style.color = 'white';
+  });
+});
+$(document).ready(function () {
+  $("#li-corp").click(function(){
+    document.getElementById('sliderrr').src = 'assets/img/slider-right-a.png';
+     document.getElementById('li-corp').style.color = '#417aeb'; 
+     document.getElementById('li-part').style.color = 'white';
+  });
+})
+
 
   
 })(jQuery);
