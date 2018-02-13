@@ -99,7 +99,7 @@
 .rl {
     /*background-image: url(../img/rea_line_2.jpg);
     background-repeat: repeat-y;*/
-    border-left: 11px solid #417aeb;
+    border-left: 11px solid #417aeb ;
     
     padding-left: 10px;
     line-height: 1.23;
@@ -235,8 +235,8 @@
 }
 
 .partners_logo {
-    margin-bottom: 4em;
-    margin-top: 5em;
+    margin-bottom: 3em;
+    margin-top: 3em;
 }
 /*footer*/
 
@@ -270,6 +270,7 @@
     font-family: 'Roboto',Arial, sans-serif;
     font-weight: 400;
     padding: 0.9375rem 1.5em;
+    padding-right: 0;
     font-size: 1rem;
 }
 

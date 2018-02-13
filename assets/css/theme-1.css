@@ -1069,7 +1069,7 @@ h2.section-title {
 
 #home.align-outer {
   /*height: 50rem;*/
-  height: 231px;
+  /*height: 231px;*/
   padding-top: 9.625rem;
   padding-bottom: 5.625rem;
 }
@@ -2809,6 +2809,16 @@ h2.section-title {
   -webkit-border-radius: 0.125rem;
           border-radius: 0.125rem;
   padding: 0.9375rem 1.5em;
+  padding-right: 0;
+  font-size: 1rem;
+}
+
+.btn-lg-i {
+  line-height: 1.5rem;
+  -webkit-border-radius: 0.125rem;
+          border-radius: 0.125rem;
+  padding: 0.9375rem 1.5em;
+  padding-left: 0;
   font-size: 1rem;
 }
 
