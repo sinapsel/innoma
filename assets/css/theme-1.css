@@ -2833,11 +2833,12 @@ h2.section-title {
 .feature1_btn > .icon,
 .btn > .icon {
   margin-right: 0.7em;
+  margin-left: 0.7em;
 }
 
-.feature1_btn > .icon {
+/*.feature1_btn > .icon {
   margin-left: 0.5rem;
-}
+}*/
 }
 }
 /**
