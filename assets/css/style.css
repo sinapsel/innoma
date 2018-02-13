@@ -436,12 +436,12 @@
 
 
 .title-w {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .title-w:before,
 .title-w:after {
   content: '';
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   box-sizing: border-box;
   height: 1px;
