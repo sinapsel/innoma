@@ -199,11 +199,11 @@ var $ = jQuery.noConflict();
 //
 
     fn_carousel: function() {
-      $('#screenshotCarousel,#partnersCarousel').imagesLoaded().always(function(instance) {
+      $('#screenshotCarousel,#featureCarouselProject,#featureCarouselCorp').imagesLoaded().always(function(instance) {
         var $carousel = $('#screenshotCarousel');
-		var $carousel2 = $('#partnersCarousel');
-		var $carousel3 = $('#featureCarouselProject');
-		var $carousel4 = $('#featureCarouselCorp');
+		    var $carousel2 = $('#partnersCarousel');
+		    var $carousel3 = $('#featureCarouselProject');
+		    var $carousel4 = $('#featureCarouselCorp');
 		
         $carousel.slick({
           centerMode: true,
@@ -211,24 +211,6 @@ var $ = jQuery.noConflict();
           slidesToShow: 3,
           swipeToSlide: true,
           responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3
-              }
-            },
             {
               breakpoint: 480,
               settings: {
@@ -238,30 +220,12 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-		$carousel2.slick({
+		    $carousel2.slick({
           centerMode: false,
           centerPadding: 0,
-          slidesToShow: 5,
+          slidesToShow: 3,
           swipeToSlide: true,
           responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3
-              }
-            },
             {
               breakpoint: 480,
               settings: {
@@ -278,24 +242,6 @@ var $ = jQuery.noConflict();
           swipeToSlide: true,
           responsive: [
             {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
@@ -304,30 +250,12 @@ var $ = jQuery.noConflict();
             }
           ]
         });
-		$carousel4.slick({
+		    $carousel4.slick({
           centerMode: false,
           centerPadding: 0,
           slidesToShow: 3,
           swipeToSlide: true,
           responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3
-              }
-            },
             {
               breakpoint: 480,
               settings: {
@@ -509,6 +437,8 @@ var $ = jQuery.noConflict();
         $html.addClass('is-mobile');
         isMobile = true;
         isDesktop = false;
+        $('.title-w').removeClass('title-w');
+        $('.title-b').removeClass('title-b');
       }
 
       if ($html.hasClass('ie9')) {
@@ -767,6 +697,7 @@ $(document).ready(function () {
      document.getElementById('li-part').style.color = 'white';
   });
 })
+
 
 
   
