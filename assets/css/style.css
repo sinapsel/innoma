@@ -62,7 +62,7 @@
     /* top: 115px; */
     /* left: 150px; */
     padding-top: 4em;
-    padding-bottom: 4em;
+    /*padding-bottom: 4em;*/
     /*padding-left: 150px;*/
 }
 
@@ -70,13 +70,21 @@
 
 .innoma h3 {
     line-height: 1.333333333333333;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 300;
     font-weight: bold;
     font-family: 'Roboto', Arial, sans-serif;
     color: #1B2340;
 }
 .innoma .rl {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 15px;
+    color: initial;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+}
+.innoma .hh{
     font-weight: bold;
     margin: 20px 0;
     font-size: 15px;
@@ -193,7 +201,7 @@
 .feature1_title h1 {
     text-align: center;
     color: #FFF;
-    font-size: 60px;
+    font-size: 56px;
     margin: -50px 0 50px 0;
     font-weight: bold;
     line-height: 1.333333333333333;
@@ -230,8 +238,10 @@
     margin-top: 68px;
 }
 
-.partners_logo img{
-  margin-right: 6em;
+.partners_logo .sld{
+  margin-right: 3em;
+  margin-left: 3em;
+  padding: 0 3em;
 }
 
 .partners_logo {
@@ -431,7 +441,24 @@
     margin-right: 5px;
 }
 
-
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel .item{    
+  text-align: center;
+}
+.carousel h2{
+    color: #fff;
+    margin: 0;
+  padding-top: 50px;
+  font-size: 48px;
+}
+.carousel p{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 
 
 
