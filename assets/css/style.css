@@ -61,7 +61,7 @@
     /* position: relative; */
     /* top: 115px; */
     /* left: 150px; */
-    padding-top: 4em;
+    /*padding-top: 4em;*/
     /*padding-bottom: 4em;*/
     /*padding-left: 150px;*/
 }
@@ -202,7 +202,7 @@
     text-align: center;
     color: #FFF;
     font-size: 56px;
-    margin: -50px 0 50px 0;
+    margin: -50px 0 5px 0;
     font-weight: bold;
     line-height: 1.333333333333333;
     font-size: 2.25rem;
@@ -235,7 +235,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 68px;
+    /*margin-top: 68px;*/
 }
 
 .partners_logo .sld{
@@ -273,9 +273,9 @@
     width: 250px;
     color: #fff;
     display: block;
-    margin: 0 auto;
+    margin: 6em auto 0 auto;
     border: 0;
-    margin-top: 64px;
+    /*margin-top: 64px;*/
     border-radius: 0.125rem;
     font-family: 'Roboto',Arial, sans-serif;
     font-weight: 400;
@@ -468,7 +468,7 @@
 .title-w:before,
 .title-w:after {
   content: '';
-  display: block;
+  display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
   height: 1px;
